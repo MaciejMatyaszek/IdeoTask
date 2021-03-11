@@ -1,0 +1,33 @@
+.wrapper{
+    margin: 0 auto;   
+}
+
+@media (min-width: 576px) {
+    .wrapper{
+        max-width: 540px;  
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper{
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper{
+        max-width: 960px;
+    }
+}
+
+@media(min-width: 1230px){
+    .wrapper-header{ 
+        max-width: 1024px;
+        width: 100%;
+        margin-left: 176px;
+    }
+    .wrapper{
+        max-width: 1024px;
+       
+    }
+}
